@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle="Adri és Papi nászajándék">
+	<image imageURL="images/general0.jpg"
+		thumbURL="thumbs/general0.jpg"
+		linkURL="images/general0.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/general3.jpg"
+		thumbURL="thumbs/general3.jpg"
+		linkURL="images/general3.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/pool_aqua_beach0.jpg"
+		thumbURL="thumbs/pool_aqua_beach0.jpg"
+		linkURL="images/pool_aqua_beach0.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/pool_aqua_beach1.jpg"
+		thumbURL="thumbs/pool_aqua_beach1.jpg"
+		linkURL="images/pool_aqua_beach1.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/garden4.jpg"
+		thumbURL="thumbs/garden4.jpg"
+		linkURL="images/garden4.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/garden1.jpg"
+		thumbURL="thumbs/garden1.jpg"
+		linkURL="images/garden1.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/garden7.jpg"
+		thumbURL="thumbs/garden7.jpg"
+		linkURL="images/garden7.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/other0.jpg"
+		thumbURL="thumbs/other0.jpg"
+		linkURL="images/other0.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/club_family_suit_room1.jpg"
+		thumbURL="thumbs/club_family_suit_room1.jpg"
+		linkURL="images/club_family_suit_room1.jpg"
+		linkTarget="_blank">
+		<title>Title test</title>
+		<caption>Hello Papi, mizu?</caption>
+	</image>
+	<image imageURL="images/food_beverage2.jpg"
+		thumbURL="thumbs/food_beverage2.jpg"
+		linkURL="images/food_beverage2.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/food_beverage5.jpg"
+		thumbURL="thumbs/food_beverage5.jpg"
+		linkURL="images/food_beverage5.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image imageURL="images/food_beverage0.jpg"
+		thumbURL="thumbs/food_beverage0.jpg"
+		linkURL="images/food_beverage0.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+</juiceboxgallery>
