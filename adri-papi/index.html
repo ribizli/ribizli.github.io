@@ -3,28 +3,106 @@
 <head>
 	<title>Adri és Papi nászajándék</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" id="jb-viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0" />
-	<meta name="description" content="This is a Juicebox Gallery. Get yours at www.juicebox.net" />
+	<meta name="viewport" 
+		content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.5/css/swiper.min.css">
 	<style type="text/css">
-	body {
-		margin: 0px;
-	}
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide > img {
+    	width: 100%;
+    }
 	</style>
+
 </head>
 <body>
-	<!--START JUICEBOX EMBED-->
-	<script src="jbcore/juicebox.js"></script>
-	<script>
-	var expanded_jb_gallery = true;
-	new juicebox({
-		containerId: 'juicebox-container',
-		showOpenButton: false,
-		useFullscreenExpand: true,
-		showThumbsButton: false,
-		showExpandButton: false
-	});
+
+	<div class="swiper-container">
+	    <!-- Additional required wrapper -->
+	    <div class="swiper-wrapper">
+	        <!-- Slides -->
+	        <div class="swiper-slide">Slide 1</div>
+	        <div class="swiper-slide">
+	        	<img src="images/general0.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/general3.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/pool_aqua_beach0.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/pool_aqua_beach1.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/garden4.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/garden1.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/garden7.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/other0.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/club_family_suit_room1.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/food_beverage2.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/food_beverage5.jpg" />
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/food_beverage0.jpg" />
+	        </div>
+	        <div class="swiper-slide">Slide Finish</div>
+	        ...
+	    </div>
+	    <!-- If we need pagination -->
+	    <div class="swiper-pagination"></div>
+	    
+	</div>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.5/js/swiper.min.js"></script>
+	<script>        
+	  var mySwiper = new Swiper ('.swiper-container', {
+	    pagination: '.swiper-pagination',
+	    keyboardControl: true,
+	  })        
 	</script>
-	<div id="juicebox-container"></div>
-	<!--END JUICEBOX EMBED-->
 </body>
 </html>
