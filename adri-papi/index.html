@@ -4,9 +4,9 @@
 	<title>Adri és Papi nászajándék</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" 
-		content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0" />
-	<meta name="mobile-web-app-capable" content="yes" />
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.5/css/swiper.min.css" />
+		content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.5/css/swiper.min.css">
 	<style type="text/css">
     html, body {
         position: relative;
@@ -19,7 +19,8 @@
         color:#000;
         margin: 0;
         padding: 0;
-    }    .swiper-container {
+    }
+    .swiper-container {
         width: 100%;
         height: 100%;
     }
@@ -44,6 +45,13 @@
     .swiper-slide > img {
     	width: 100%;
     }
+    .swiper-slide ul {
+    	text-align: left;
+    	list-style: none;
+    }
+    .swiper-slide a {
+    	color: #555;
+    }
 	</style>
 
 </head>
@@ -53,7 +61,21 @@
 	    <!-- Additional required wrapper -->
 	    <div class="swiper-wrapper">
 	        <!-- Slides -->
-	        <div class="swiper-slide">Slide 1</div>
+	        <div class="swiper-slide">
+	        	<h2>
+        		"Nem számít, hová vezet ez az út,<br>
+				Nem kell félni, ha egy kicsit bonyolult.<br>
+				Minden állomás valamitől más,<br>
+				Ettől olyan szép az utazás."
+	        	</h2>
+	        </div>
+	        <div class="swiper-slide">
+	        	<h2>
+		        Nászajándékotok nem más, mint egy felejthetetlen utazás.<br>
+		        A dátumot már tudjátok és azt is, hogy útlevél kell hozzá.<br>
+		        Ez egyetlen kérdés csak az, hogy hová?
+		       	</h2>
+	        </div>
 	        <div class="swiper-slide">
 	        	<img src="images/general0.jpg" />
 	        </div>
@@ -76,6 +98,12 @@
 	        	<img src="images/garden7.jpg" />
 	        </div>
 	        <div class="swiper-slide">
+	        	<h2>
+	        	Kitaláltátok már, hogy hová?<br>
+	        	Hmmm, szerintünk kell még egy kis segítség.
+	        	</h2>
+	        </div>
+	        <div class="swiper-slide">
 	        	<img src="images/other0.jpg" />
 	        </div>
 	        <div class="swiper-slide">
@@ -90,28 +118,40 @@
 	        <div class="swiper-slide">
 	        	<img src="images/food_beverage0.jpg" />
 	        </div>
-	        <div class="swiper-slide">Slide Finish</div>
-	        ...
+	        <div class="swiper-slide">
+	        	<h2>Most már aztán tudnotok kell.</h2>
+	        </div>
+	        <div class="swiper-slide">
+	        	<div>
+		        	<h2>De ha mégsem, akkor segítünk:</h2>
+		        	<ul>
+		        		<li><b>uticél:</b>
+		        			<a href="http://www.sailorsbeachclub.com/sailorsbeachclub/lang/2/en/english.aspx" target="_blank">Sailor's Beach Club, Kiris, Török Riviéra</a>
+		        		</li>
+		        		<li><b>időpont:</b> 2015 október 23 - október 30</li>
+		        		<li><b>all-inclusive</b></li>
+		        		<li><b>utitársak</b> (hogy ne unatkozzatok): Istvándy Rózsi, Hanna és kedves szülei</li>
+		        	</ul>
+	        	</div>
+	        </div>
 	    </div>
 	    <!-- If we need pagination -->
 	    <div class="swiper-pagination"></div>
 	    
 	</div>
 
-	<script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.5/js/swiper.min.js"></script>
-	<script>        
-		var mySwiper = new Swiper ('.swiper-container', {
-			pagination: '.swiper-pagination',
-			keyboardControl: true
-		});
-	</script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.5/js/swiper.min.js"></script>
 	<script>
 		if (screenfull.enabled) {
 			document.querySelector('.swiper-container').addEventListener('click', function() {
 		    	screenfull.request();
 			});
 		}
+		var mySwiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			keyboardControl: true
+		});
 	</script>
 </body>
 </html>
